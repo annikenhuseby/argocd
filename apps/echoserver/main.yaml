@@ -52,7 +52,7 @@ spec:
   rules:
   - http:
       paths:
-      - path: /echoserver
+      - path: /echo
         pathType: Prefix
         backend:
           service:
