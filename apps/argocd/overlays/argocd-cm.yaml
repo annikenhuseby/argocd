@@ -3,6 +3,7 @@ kind: ConfigMap
 metadata:
   name: argocd-cm
 data:
+  accounts.anniken: login
   resource.customizations: |
     networking.k8s.io/Ingress:
       health.lua: |
