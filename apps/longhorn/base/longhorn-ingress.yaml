@@ -18,6 +18,7 @@ metadata:
     kubernetes.io/ingress.class: traefik
     traefik.ingress.kubernetes.io/router.middlewares: bks-longhorn-longhorn-auth-middleware@kubernetescrd
 spec:
+  ingressClassName: traefik
   rules:
   - host: longhorn.p1.lab.basefarm.net
     http:
