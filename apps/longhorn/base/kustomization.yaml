@@ -5,7 +5,4 @@ namespace: bks-longhorn
 
 resources:
 - https://raw.githubusercontent.com/longhorn/longhorn/v1.5.3/deploy/longhorn.yaml
-- base/longhorn-ingress.yaml
-
-patches:
-- path: overlays/longhorn-default-settings.yaml
+- longhorn-ingress.yaml

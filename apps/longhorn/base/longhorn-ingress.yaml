@@ -20,7 +20,7 @@ metadata:
 spec:
   ingressClassName: traefik
   rules:
-  - host: longhorn.p1.lab.basefarm.net
+  - host: changeme.com
     http:
       paths:
       - pathType: Prefix
