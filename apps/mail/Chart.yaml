@@ -6,7 +6,8 @@ icon: https://bokysan.github.io/docker-postfix/postfix.png
 maintainers:
 - name: Bokysan
   url: https://github.com/bokysan
-dependencies:
-  - name: mail
-    version:  4.3.0
-    repository: https://github.com/bokysan/docker-postfix
+name: mail
+sources:
+- https://github.com/bokysan/docker-postfix
+type: application
+version: 4.3.0
