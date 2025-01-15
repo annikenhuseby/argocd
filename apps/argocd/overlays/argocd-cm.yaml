@@ -4,6 +4,7 @@ metadata:
   name: argocd-cm
 data:
   accounts.anniken: login
+  accounts.testread: login
   resource.customizations: |
     networking.k8s.io/Ingress:
       health.lua: |
