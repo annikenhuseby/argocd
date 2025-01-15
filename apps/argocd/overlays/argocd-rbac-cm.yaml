@@ -2,7 +2,15 @@ apiVersion: v1
 data:
   policy.csv: |
     g, anniken, role:admin
-    p, *, applications, get, */echoserver/echoserver, allow
+    p, *, applications, get, echoserver/*, allow
+    p, *, certificates, get, ecoserver/*, allow
+    p, *, clusters, get, echoserver/*, allow
+    p, *, repositories, get, echoserver/*, allow
+    p, *, write-repositories, get, echoserver/*, allow
+    p, *, projects, get, echoserver/*, allow
+    p, *, accounts, get, echoserver/*, allow
+    p, *, gpgkeys, get, echoserver/*, allow
+    p, *, logs, get, echoserver/*, allow
 kind: ConfigMap
 metadata:
   annotations:
