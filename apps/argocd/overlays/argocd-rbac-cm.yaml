@@ -2,7 +2,7 @@ apiVersion: v1
 data:
   policy.csv: |
     g, anniken, role:admin
-    p, echo-access, applications, get, echoserver/*, allow
+    p, role:echo-access, applications, get, echoserver/*, allow
     g, testread, role:echo-access
 kind: ConfigMap
 metadata:
