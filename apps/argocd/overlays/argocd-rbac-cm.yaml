@@ -2,6 +2,7 @@ apiVersion: v1
 data:
   policy.csv: |
     g, anniken, role:admin
+    p, *, applications, get, echoserver/echoserver, allow
 kind: ConfigMap
 metadata:
   annotations:
