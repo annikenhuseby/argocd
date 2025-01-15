@@ -3,7 +3,6 @@ data:
   policy.csv: |
     g, anniken, role:admin
     p, role:echo-access, applications, get, echoserver/*, allow
-    p, role:echo-access, applications, list, echoserver/*, allow
     g, testread, role:echo-access
 kind: ConfigMap
 metadata:
